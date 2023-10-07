@@ -1,0 +1,144 @@
+
+  
+
+  h1{
+    font-size: 36px;
+    margin: 10px;
+    font-family:Georgia;
+  }
+  
+  p{
+    font-family:Georgia;
+    font-size: 18px;
+    margin: 20px;
+  }
+  li{
+    font-family:Georgia;
+    font-size: 18px;
+    margin: 10px;
+  }
+  strong{
+    font-family:Georgia;
+    font-size: 20px;
+  
+  }
+  .marco {
+    padding: 20px; /* Añade espacio interno para el contenido */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra alrededor del marco */
+    margin: 50px; /* Añade espacio entre el contenido y la imagen de fondo */
+}
+  h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-family:Georgia;
+  }
+  
+  h3{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family:Georgia;
+  }
+  img{
+    border-radius: 50%;
+    width: 250px; 
+    height: 250px;
+  }
+  .contenedor {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px;
+  }
+  
+  .derecha {
+    background-color: #29cdac;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    grid-column: 1;
+   
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+   
+  }
+  
+  .izquierda {
+   /* background-color: #c2e6df;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    grid-column: 2;
+ 
+*/
+    grid-column: 2;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    padding: 20px; /* Añade espacio interno para el contenido */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    border-radius: 10px; /* Añade esquinas redondeadas al marco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra alrededor del marco */
+    margin: 20px; /* Añade espacio entre el contenido y la imagen de fondo */
+   
+  }
+  .centrado{
+    text-align: center;
+  }
+  .contacto i {
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+  }
+  .contacto {
+    font-size: 18px; /* Tamaño de fuente para el texto */
+    text-align: left; /* Alinea el contenido al centro */
+  }
+  .contacto span{
+    margin: 10px;
+    margin-bottom: 10px;
+    font-family:Georgia;
+    font-size: 16px;
+
+    font-size: 18px;
+  
+  }
+  .ciclos-lista {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .ciclos-lista li {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .nombre {
+    margin-right: 20px;
+  }
+  
+  .ciclos {
+    display: flex;
+    align-items: right;
+    justify-content: flex-start; 
+  }
+  
+  .ciclo {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 50%; /* Círculo */
+    margin-right: 5px;
+  }
+  
+  .lleno {
+    background-color: rgb(192, 164, 220); /* Color del círculo lleno */
+  }
+  .vacio {
+    background-color: white; /* Color del círculo vacío */
+  }
+  body {
+    background-image: url('fondo.jpg');
+    background-size: cover; /* Para que la imagen de fondo cubra todo el cuerpo */
+    background-attachment: fixed; /* Fija la imagen de fondo al desplazarse */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+}
